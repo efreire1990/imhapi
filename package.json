@@ -1,0 +1,29 @@
+{
+  "name": "imhapi",
+  "version": "1.0.0",
+  "description": "Tutorial para aprender a ser hapi en grupo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efreire1990/imhapi.git"
+  },
+  "author": "Eladio Freire eladio@caseonit.com",
+  "license": "BSD-3-Clause",
+  "engines":{
+      "node":"^5.6.0",
+      "npm":"^3.6.0"
+    },
+  "bugs": {
+    "url": "https://github.com/efreire1990/imhapi/issues"
+  },
+  "homepage": "https://github.com/efreire1990/imhapi#readme",
+  "dependencies": {
+       "hapi": "^13.0.0"
+   },
+   "devDependencies": {
+       "lab": "^8.2.0"
+   }
+}
