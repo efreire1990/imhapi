@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/efreire1990/imhapi#readme",
    "devDependencies": {
-       "lab": "^9.0.0"
+       "lab": "^9.1.0"
    },
    "dependencies": {
    "hapi": "^13.0.0"
