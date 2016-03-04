@@ -4,8 +4,8 @@
   "description": "Tutorial para aprender a ser hapi en grupo",
   "main": "lib/index.js",
   "scripts": {
-    "start": "node lib/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node lib/start.js",
+    "test": "lab test --reporter console --threshold 100 --assert code --lint --coverage --verbose"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/efreire1990/imhapi#readme",
    "devDependencies": {
        "lab": "^9.1.0"
+       "code": "2.1.0"
    },
    "dependencies": {
    "hapi": "^13.0.0"
