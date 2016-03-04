@@ -16,7 +16,7 @@ const expect = Code.expect;
 
 describe('/version', () => {
 
-    it('returns the package name', (done) => {
+    it('nombre paquete', (done) => {
 
         Server.init(0, (err, server) => {
 

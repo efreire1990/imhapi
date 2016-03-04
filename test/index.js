@@ -18,7 +18,7 @@ const expect = Code.expect;
 
 describe('Test de index', () => {
 
-    it('Test básico para verificar la función init() en index.js', (done) => {
+    it('Test básico para verificar la función init()', (done) => {
 
         Server.init(0, (err, server) => {
 
