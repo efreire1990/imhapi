@@ -1,9 +1,9 @@
 'use strict';
 
 const Code = require('code');   // assertion library
-const Lab = require('../');
+const Lab = require('lab');
 const Hapi = require('hapi');
-const Server = require('../lib/index.js');
+const Server = require('../lib/');
 const Version = require('../lib/version');
 
 const internals = {};
