@@ -6,8 +6,6 @@ const Hapi = require('hapi');
 const Server = require('../lib/index.js');
 const Version = require('../lib/version');
 
-const internals = {};
-
 
 const lab = exports.lab = Lab.script();
 const describe = lab.experiment;
