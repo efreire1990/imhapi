@@ -5,27 +5,26 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "node lib/start.js",
-    "test": "lab test --reporter console --threshold 100 --assert code --lint --coverage --verbose"
+    "test": "lab test --reporter console --threshold 100 --assert code --lint --lint-errors-threshold 0 --lint-warnings-threshold 0 --coverage --verbose"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/efreire1990/imhapi.git"
+    "url": "git+https://github.com/caseonit/imhapi.git"
   },
   "author": "Eladio Freire <eladio@caseonit.com>",
   "license": "BSD-3-Clause",
-  "engines":{
-      "node":">=5.6.0",
-      "npm":">=3.6.0"
-    },
   "bugs": {
-    "url": "https://github.com/efreire1990/imhapi/issues"
+    "url": "https://github.com/caseonit/imhapi/issues"
   },
-  "homepage": "https://github.com/efreire1990/imhapi#readme",
-   "devDependencies": {
-       "lab": "^9.1.0",
-       "code": "2.1.0"
-   },
-   "dependencies": {
-   "hapi": "^13.0.0"
- }
-}
+  "homepage": "https://github.com/caseonit/imhapi#readme",
+  "engines": {
+    "node": ">=5.6.0",
+    "npm": ">=3.6.0"
+  },
+  "devDependencies": {
+    "code": "^2.1.0",
+    "lab": "^10.1.0"
+  },
+  "dependencies": {
+    "hapi": "^13.0.0"
+  }
